@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="/Css/index.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Sign Up</h1>
+    <form id="signup-form">
+        <div class="input-group">
+            <div class="input-field">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Enter your name" id="name">
+                <div class="error-message" id="name-error"></div>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Enter your email" id="email" >
+                <div class="error-message" id="email-error"></div>
+            </div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Enter your password" id="password">
+                <div class="error-message" id="password-error"></div>
+            </div>
+        </div>
+
+        <div class="btn">
+            <button type="submit">Sign Up</button>
+        </div>
+    </form>
+</div>
+
+</body>
+<script src="/Javascript/script.js"></script>
+</html>

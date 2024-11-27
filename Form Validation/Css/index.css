@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url(/images/PCzhqd.webp);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color:black;
+}
+.container {
+    width: 100%;
+    max-width: 500px;
+    background-color:rgba(128, 128, 128, 0.307);
+    padding: 20px;
+    padding: 50px 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+    margin-top: 0px;
+    color: white;
+}
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+ input {
+    color: black;
+    width: 100%;
+    padding: 20px;
+    max-width: 400px;
+    padding-left: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    overflow: hidden;
+    outline: none;
+    background-color: transparent;
+    font-weight: bold;
+    
+}
+#name{
+    color: black;
+}
+.input-field i {
+    position: absolute;
+    left: 35px;
+    top: 50%;
+    transform: translateY(-50%);
+    
+}
+.error-message {
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 30px;
+   text-align: left;}
+.btn button {
+    width: 30%;
+    padding: 15px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left:180px;
+}
+.btn button:hover {
+    background-color: #45a049;
+}
+.error  {
+    border-color: red;
+}
+.success {
+    border-color: green;
+}
