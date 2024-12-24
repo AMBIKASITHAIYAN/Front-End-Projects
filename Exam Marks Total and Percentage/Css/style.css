@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(orange,red);
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    background-color: aliceblue;
+    margin-top: 50px;
+    width: 70%;
+    max-width: 400px;
+    text-align: center;
+   display: table;
+   border-radius: 10px;
+   padding: 10px;
+}
+h1{
+    padding: 10px;
+}
+.row{
+    display: table-row;
+
+}
+label{
+    display: table-cell;
+    padding: 10px;
+    text-align: right;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+input{
+    display: table-cell;
+    padding: 4px;
+    margin-left: 10px;
+}
+.btn{
+    padding: 20px;
+    
+}
+button{
+    padding: 10px;
+    border-radius: 3px;
+    border:none;
+    background-color: rgb(35, 191, 35);
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+button:hover{
+    filter: brightness(150%);
+    cursor: pointer;
+}
+#total{
+    padding: 10px;
+}
+#per{
+    padding: 10px;
+}
+#comm{
+    padding: 10px;
+}
+.Pass{
+    color: green;
+}
+.Fail{
+    color:red;
+}
